@@ -10,5 +10,5 @@ end
 
 def take_a_number(array, name)
   array.push(name)
-  puts array[-1] + array.index(name).to_s
+  puts "Welcome, #{array[-1]}. You are #{index} in line."
 end
